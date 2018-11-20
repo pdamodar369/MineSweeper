@@ -1,0 +1,19 @@
+table {
+
+    border-collapse: collapse;
+    width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+}
+td {
+    padding: 25px;
+    text-align: center;
+    background-color: rgba(20, 20, 20, 0.7);
+    border-color: white;
+    border-radius: 15px;
+    margin: 2px;
+    width: 5px;
+    height: 5px;
+    border: collapse;
+    color: white;
+}
