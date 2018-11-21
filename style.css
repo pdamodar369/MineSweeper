@@ -1,6 +1,5 @@
 table {
 
-    border-collapse: collapse;
     width: 50%;
     margin: auto;
     box-sizing: border-box;
@@ -11,9 +10,18 @@ td {
     background-color: rgba(20, 20, 20, 0.7);
     border-color: white;
     border-radius: 15px;
-    margin: 2px;
+    margin: 20px;
     width: 5px;
     height: 5px;
     border: collapse;
     color: white;
+}
+
+div, table {
+    display: block;
+    margin: 0 auto;
+}
+
+div.sub {
+    width: 100%;
 }
